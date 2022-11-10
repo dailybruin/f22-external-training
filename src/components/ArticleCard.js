@@ -1,1 +1,1 @@
-hello
+import styled from 'styled-components'
