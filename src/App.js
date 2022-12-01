@@ -3,6 +3,7 @@ import styled from "styled-components";
 import "./App.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import ArticleGrid from "./components/ArticleGrid";
 
 function App() {
   const [data, setData] = useState(null);
@@ -13,10 +14,11 @@ function App() {
       .then((res) => setData(res.data["article.aml"]));
   }, []);
 
+  const placeholderArticles = [1, 1, 1, 1, 1, 1, 1, 1];
   return (
     <div className="App">
       <Header />
-      Branch for article grid
+      <ArticleGrid articles={placeholderArticles} />
       <Footer />
     </div>
   );
