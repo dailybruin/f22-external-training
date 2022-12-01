@@ -1,5 +1,9 @@
 import React, { useState, useEffect } from "react";
 import styled from 'styled-components';
+import ArticleCard from './components/ArticleCard';
+import ArticleGrid from './components/ArticleCard';
+
+
 import './App.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -17,9 +21,11 @@ function App() {
     <div className="App">
       <Header/>
       Hello Daily Bruin!
+      <ArticleGrid> </ArticleGrid>
       <Footer/>
     </div>
   );
 }
 
 export default App;
+
