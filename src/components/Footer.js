@@ -15,6 +15,7 @@ const Container = styled.div`
 	padding: 60px 0 10px 0;
   text-align: center;
   box-shadow: 0 4px 4px rgb(0,0,0,.25);
+  
 	h1 {
 		margin: 0;
     margin-bottom: 30px;
