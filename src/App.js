@@ -4,6 +4,8 @@ import "./App.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import ArticleGrid from "./components/ArticleGrid";
+import ArticleCard from './components/ArticleCard';
+>>>>>>> master
 
 function App() {
   const [data, setData] = useState(null);
@@ -25,3 +27,4 @@ function App() {
 }
 
 export default App;
+
